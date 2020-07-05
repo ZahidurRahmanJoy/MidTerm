@@ -10,13 +10,18 @@ public static void main(String[] args) {
         /*
          Map is created and inserted some data.Retrieve the Collection view of values present in map
          */
-        HashMap<Integer, String> map = new HashMap<Integer, String>();
-        map.put(1, "NYC");
-        map.put(2, "LA");
-        map.put(3, "Denver");
-        map.put(4, "Boston");
-        map.put(5, "San Jose");
-        map.put(6, "Seattle");
+        HashMap<Integer, String> mapZipCode = new HashMap<Integer, String>();
+
+
+
+        mapZipCode.put(11373, "NYC");
+        mapZipCode.put(45352, "LA");
+        mapZipCode.put(63423, "Denver");
+        mapZipCode.put(63463, "Boston");
+        mapZipCode.put(23452, "San Jose");
+        mapZipCode.put(63463, "Seattle");
+        System.out.println(mapZipCode);
+        System.out.println("Collection View: " + mapZipCode.values());
 
 
 
